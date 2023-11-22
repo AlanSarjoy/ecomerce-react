@@ -1,0 +1,42 @@
+.nav {
+    height: 40px;
+    padding: 1.5rem;
+    display: flex;
+    background-color: #F8E367;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.section{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    list-style: none;
+    align-items: center;
+}
+
+.menu>li:hover {
+    color: #fe956f;
+    cursor: pointer;
+}
+
+.search {
+    width: 7rem;
+    outline: none;
+    height: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;    
+}
